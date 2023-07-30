@@ -1,0 +1,4 @@
+baseURL = 'http://erickmedeiros.com/'
+languageCode = 'pt-br'
+title = 'Erick Medeiros'
+theme = 'ink-free'
