@@ -10,3 +10,7 @@ git submodule --force add https://github.com/chollinger93/ink-free themes/ink-fr
 echo "theme = 'ink-free'" >> hugo.toml
 hugo server
 ```
+
+## theme
+
+<https://github.com/RealOrangeOne/theorangeone.net/tree/master>
