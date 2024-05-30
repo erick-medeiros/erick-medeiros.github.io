@@ -39,6 +39,11 @@ name = "Github"
 icon = "github"
 url = "https://github.com/erick-medeiros/"
 
+[[params.social]]
+name = "Linkedin"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/erickmedeirosbr/"
+
 #[[params.social]]
 #name = "Twitter"
 #icon = "twitter"
