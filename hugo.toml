@@ -16,6 +16,7 @@ copyright = "© Copyright notice"
 	subtitle = "Software Developer"
 	mode = "auto"
 	wpm = 250
+  favicon = "/favicon.png"
 
 # Nav.
 [[menu.main]]
