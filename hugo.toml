@@ -63,3 +63,8 @@ url = "https://github.com/erick-medeiros/"
 
 search_bar = true
 search_bar_placeholder = "Pesquisar meu site"
+
+
+[services]
+  [services.googleAnalytics]
+    ID = 'G-CT7WGGWFED'
