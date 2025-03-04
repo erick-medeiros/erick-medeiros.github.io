@@ -1,0 +1,63 @@
+baseURL: "http://erickmedeiros.com/"
+languageCode: "pt-br"
+title: "Erick Medeiros"
+theme: "ink-free"
+
+params:
+  subtitle: "Software Developer"
+  mode: "auto"
+  wpm: 250
+  favicon: "/favicon.png"
+  social:
+  - name: "Github"
+    icon: "github"
+    url: "https://github.com/erick-medeiros/"
+  - name: "Linkedin"
+    icon: "linkedin"
+    url: "https://www.linkedin.com/in/erickmedeirosbr/"
+  # - name: "Twitter"
+  #   icon: "twitter"
+  #   url: "https://twitter.com/erickmedeirosbr/"
+
+pagination:
+  pagerSize: 10
+
+copyright: "© Copyright notice"
+
+permalinks:
+  posts: "/:year/:month/:title"
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "All posts"
+      url: "/posts"
+      weight: 2
+    # - name: "About"
+    #   url: "/about"
+    #   weight: 3
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: true
+    style: "github"
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 3
+    ordered: true
+    startLevel: 2
+
+search_bar: true
+search_bar_placeholder: "Pesquisar meu site"
+
+services:
+  googleAnalytics:
+    ID: "G-CT7WGGWFED"
