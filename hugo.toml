@@ -3,7 +3,8 @@ languageCode = 'pt-br'
 title = 'Erick Medeiros'
 theme = 'ink-free'
 
-paginate = 5
+[pagination]
+pagerSize = 10
 
 copyright = "© Copyright notice"
 # Demo only
