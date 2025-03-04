@@ -19,6 +19,9 @@ params:
   # - name: "Twitter"
   #   icon: "twitter"
   #   url: "https://twitter.com/erickmedeirosbr/"
+  - name: "Links"
+    icon: "link"
+    url: "https://erickmedeiros.com/links"
 
 pagination:
   pagerSize: 10

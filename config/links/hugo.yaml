@@ -18,6 +18,10 @@ params:
     links:
       - linkedin: "https://www.linkedin.com/in/erickmedeirosbr"
       - github: "https://github.com/erick-medeiros"
+      - link:
+          href: https://erickmedeiros.com
+          icon: link
+          text: Site
 
 markup:
   highlight:
