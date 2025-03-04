@@ -1,0 +1,28 @@
+baseURL: "http://erickmedeiros.com/links"
+languageCode: "pt-br"
+title: "Erick Medeiros"
+theme: "lynx"
+publishDir: "public/links"
+
+enableEmoji: true
+disableKinds:
+  - "taxonomy"
+  - "term"
+
+params:
+  footer: disable
+  author:
+    name: "Erick Medeiros"
+    headline: ""
+    image: "author.jpeg"
+    links:
+      - linkedin: "https://www.linkedin.com/in/erickmedeirosbr"
+      - github: "https://github.com/erick-medeiros"
+
+markup:
+  highlight:
+    noClasses: false
+
+  goldmark:
+    renderer:
+      unsafe: true

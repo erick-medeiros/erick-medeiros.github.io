@@ -1,10 +1,11 @@
+{{ if eq .Site.Params.footer "enable" }}
 <div class="footer wrapper">
 	<nav class="nav">
 		<div>{{ now.Year }} {{ with .Site.Copyright }} {{ . | safeHTML }} {{ end }}</div>
 		<!-- <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div> -->
 	</nav>
 </div>
-
+{{ end }}
 {{ template "_internal/google_analytics.html" . }}
 {{- with .Site.Params.Social -}}
 <script>feather.replace()</script>
