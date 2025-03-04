@@ -23,7 +23,7 @@ params:
 pagination:
   pagerSize: 10
 
-#copyright: "© Copyright notice"
+copyright: "© Copyright | Erick Medeiros"
 
 permalinks:
   posts: "/:year/:month/:title"
