@@ -1,16 +1,24 @@
 # \<erick-medeiros/>
 
-## created by
+# run
 
 ```sh
-hugo new site <pathname>
-cd <pathname>
-git init
-git submodule --force add https://github.com/chollinger93/ink-free themes/ink-free
-echo "theme = 'ink-free'" >> hugo.toml
-hugo server
+hugo serve
 ```
 
-## theme
+```sh
+hugo serve -e links
+```
 
-<https://github.com/RealOrangeOne/theorangeone.net/tree/master>
+## theme posts
+
+<https://github.com/chollinger93/ink-free>
+
+## theme links
+
+<https://github.com/jpanther/lynx>
+
+## links
+
+- https://shantanugoel.com/notes/braindump/hugo-multiple-themes/
+
