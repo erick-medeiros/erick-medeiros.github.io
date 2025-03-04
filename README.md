@@ -10,10 +10,6 @@ hugo serve
 hugo serve -e links
 ```
 
-# to-do
-
-- google analytics not working
-
 ## theme posts
 
 <https://github.com/chollinger93/ink-free>
