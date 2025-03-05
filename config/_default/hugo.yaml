@@ -8,7 +8,7 @@ params:
   mode: "auto"
   wpm: 250
   favicon: "/favicon.png"
-  footer: enable
+  footer: posts
   social:
   - name: "Github"
     icon: "github"

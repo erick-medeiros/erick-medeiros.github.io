@@ -1,5 +1,5 @@
 {{ template "_internal/google_analytics.html" . }}
-{{ if eq .Site.Params.footer "enable" }}
+{{ if eq .Site.Params.footer "posts" }}
 <div class="footer wrapper">
 	<nav class="nav">
 		<div>{{ now.Year }} {{ with .Site.Copyright }} {{ . | safeHTML }} {{ end }}</div>
@@ -10,3 +10,32 @@
 <script>feather.replace()</script>
 {{- end -}}
 {{ end }}
+{{ if eq .Site.Params.footer "links" }}
+<footer class="py-10">
+	<div class="text-center">
+	  {{/* Copyright */}}
+	  <p class="text-sm text-neutral-500 dark:text-neutral-400">
+		{{- with .Site.Copyright }}
+		  {{ . | emojify | markdownify }}
+		{{- else }}
+		  &copy;
+		  {{ now.Format "2006" }}
+		  {{ .Site.Author.name | markdownify | emojify }}
+		{{- end }}
+	  </p>
+	  {{/* Theme attribution */}}
+	  {{ if .Site.Params.attribution | default true }}
+		<p class="text-xs text-neutral-500 dark:text-neutral-400">
+		  {{ $hugo := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+			href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>`
+		  }}
+		  {{ $lynx := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://git.io/hugo-lynx" target="_blank" rel="noopener noreferrer">Lynx</a>` }}
+		</p>
+	  {{ end }}
+	</div>
+	{{/* Extend footer - eg. for extra scripts, etc. */}}
+	{{ if templates.Exists "partials/extend-footer.html" }}
+	  {{ partialCached "extend-footer.html" . }}
+	{{ end }}
+  </footer>
+  {{ end }}

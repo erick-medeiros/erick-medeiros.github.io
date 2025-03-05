@@ -10,7 +10,7 @@ disableKinds:
   - "term"
 
 params:
-  footer: disable
+  footer: links
   author:
     name: "Erick Medeiros"
     headline: ""
